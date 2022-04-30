@@ -21,19 +21,37 @@ describe("UNIT TESTS FOR USER CLASS", () => {
 
 
   test("Test with getters", () => {
-    const user = new User(
+    const userget = new User(
       2,
       "carlogilmar",
       "carlo",
       "bio",
       "dateCreated",
-      "lastUpdate"
+      "lastUpdate",
     );
     
-    expect(user.getUsername).toBe('carlogilmar')
-    expect(user.getName).toBe('carlo')
-    expect(user.getBio).toBe('bio')
-    expect(user.getDateCreated).not.toBeUndefined()
-    expect(user.getLastUpdate).not.toBeUndefined()
+    
+    expect(userget.getUsername).toBe('carlogilmar')
+    expect(userget.getName).toBe('carlo')
+    expect(userget.getBio).toBe('bio')
+    expect(userget.getDateCreated).not.toBeUndefined()
+    expect(userget.getLastUpdate).not.toBeUndefined()
   });
+
+
+  test('test with setters', () => {
+    const userset = new User (
+      3,
+      'mabvmex',
+      'Miguel',
+      'Link en mi bio',
+    );
+    
+    userset.setbio = 'nueva bio > viedeo en el youtube azul'
+    expect(userset.setbio).toBe('nueva bio > viedeo en el youtube azul')
+    
+    userset.setUsername = 'angel';
+    expect(userset.username).toBe('angel')
+    
+  })
 });
