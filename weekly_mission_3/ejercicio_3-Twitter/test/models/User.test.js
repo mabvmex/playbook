@@ -15,8 +15,9 @@ describe("UNIT TESTS FOR USER CLASS", () => {
     expect(user.username).toBe('juanito-pistolas')
     expect(user.name).toBe('Juan López')
     expect(user.bio).toBe('Vibrando Alto')
-    expect(user.dateCreated).toBe('dateCreated')
-    expect(user.lastUpdate).toBe('lastUpdate')
+    expect(user.dateCreated).not.toBeUndefined()
+    expect(user.lastUpdate).not.toBeUndefined()
+    
     
   });
 });
