@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio_3-twitter",
+  "version": "1.0.0",
+  "description": "Semana 3 > Ejercicio 3 > Twitter",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": "mabvmex",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
