@@ -8,5 +8,4 @@ class User {
     this.lastUpdate = new Date();
   }
 }
-
-module.exports = User
+module.exports = User;

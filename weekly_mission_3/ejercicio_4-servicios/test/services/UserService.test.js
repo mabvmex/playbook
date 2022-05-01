@@ -1,4 +1,4 @@
-const UserService = require('./../../app/services/services');
+const UserService = require('../../app/services/UserServices');
 
 describe("Tests for UserService", () => {
   test("1.- Create a new user using the UserService", () => {
@@ -8,4 +8,15 @@ describe("Tests for UserService", () => {
     expect(user.id).toBe(1000);
     expect(user.bio).not.toBeUndefined();
   });
+
+
+  test("2.- Get all user data in a list", () => {
+    const user = UserService.create(1, "mabvmex", "Miguel")
+    const userInfoList = UserService.getInfo(user)
+
+    expect(userInfoList[0]).toBe(1)
+    expect(userInfoList[1]).toBe("mabvmex")
+    expect(userInfoList[2]).toBe('Miguel')
+    expect(userInfoList[3]).toBe("Sin bio")
+  })
 });
