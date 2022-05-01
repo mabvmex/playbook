@@ -13,19 +13,11 @@ class UserService {
     user.username = updatedName
     return (user)
   }
+
+  static getAllUserNames([user1, user2, user3]) {
+    const userslist = [user1.username, user2.username, user3.username]
+    return userslist
+  }
 }
 
 module.exports = UserService;
-
-
-
-
-/* 
-
-  3. Requerimiento 3: Agregar un nuevo método estático en `UserService` llamado `updateUserUsername`, 
-  que reciba un objeto de la clase `User` y un nuevo string, que actualizará el valor de `username`. 
-
-  4. Requerimiento 4: Agregar un nuevo método estático en `UserService` llamado `getAllUsernames`, 
-    que recibirá una lista de objetos de la clase `User`, y regresará la lista de todos los usernames 
-    de dichos objetos. 
-*/
