@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "Ejercicio 4 - servicios",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "node './../../node_modules/bin/jest'"
+    "test": "node ./node_modules/.bin/jest"
   },
   "author": "mabvmex",
   "license": "ISC",
