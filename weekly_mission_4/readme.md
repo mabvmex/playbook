@@ -10,4 +10,4 @@ Proyectos desarrollados en la semana 4:
 |`fizzbuzz`|1|[Link al repo](https://github.com/mabvmex/launch_X-refactoring)|
 |`PR`|2|[Link al repo](https://github.com/mabvmex/launch_x-API-Fizzbuzz)|
 |`Code Challenge`|3, 4, 5|[Link al repo](https://github.com/mabvmex/Launch_X-ApiFizzBuzz-2.0)|
-|`Trello JS Fork`|7|[Link al repo](@github.com:mabvmex/launch_x-trello.js)|
+|`Trello JS Fork`|7|[Link al repo](https://github.com/mabvmex/launch_x-trello-api-js)|
